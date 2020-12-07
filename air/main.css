@@ -405,5 +405,5 @@ margin-right: 0;
   width: 1140px;
 }
 .main-page-wrapper{
-  background: url("./img/main-wrapper.png") center top no-repeat, url(./img/wrapper_bottom.png) right -278px bottom 141px no-repeat;
+  background: url("./img/main-wrapper.png") center top no-repeat, url(./img/wrapper_bottom.png) right bottom 141px no-repeat;
 }
