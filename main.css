@@ -32,12 +32,15 @@ a{
   text-decoration: none;
   margin-bottom: 40px;
 }
-
 .contacts__text{
   font-size: 13px;
   line-height: 8px;
   text-decoration: underline;
-  color: #dfb56d
+  color: #ffffff;
+}
+.contacts__text__active{
+  color: #DA0100;
+  text-decoration: underline;
 }
 .section{
   margin: 0 auto;
@@ -82,8 +85,8 @@ h1,h2,h3,h4 {
   vertical-align: middle;
   margin-right:51px ;
 }
-.menu__item--active.menu__link{
-  color: #dfb56d
+.menu__item__active{
+  color: #DA0100;
 }
 .menu__item:last-child{
 margin-right: 0;
@@ -93,9 +96,8 @@ margin-right: 0;
 }
 
 .menu__link:hover{
-  color: #dfb56d;
+  color: #DA0100;
 }
-
 
 .preview{
   width: 520px;
@@ -128,7 +130,7 @@ margin-right: 0;
 }
 
 .button:hover{
-  background: rgb(231, 99, 99);
+  background: #DA0100;
   box-shadow: 0 0 25px 0 rgb(224, 71, 71,0.3);
 }
 .features{
@@ -206,15 +208,16 @@ margin-right: 0;
   margin-right: 4px;
 }
 
-.features__button-bg-white{
+.features__button{
   background: #ffffff;
   color: #F5170E;
   font-weight: 700;
   margin-bottom: 26px;
   padding: 18px 27px;
 }
-.features__button{
-  padding: 18px 27px;
+.features__button:hover{
+  background: #F5170E;
+  color: #FFFFFF;
 }
 .news__title{
   font-size: 36px;
@@ -292,7 +295,7 @@ margin-right: 0;
   font-weight: bold;
   line-height: 32px;
 }
-.paginator__item--active .paginator__link{
+.paginator__item__active .paginator__link{
   background: #FFFFFF;
   color: #F5170E;
 }
@@ -375,30 +378,31 @@ margin-right: 0;
   top: 26px;
   right: 252px;
 }
-.socials__item--icon--tg .socials__link{
+.socials__item__icon__tg .socials__link{
   background-image:url("./img/telegram.png") ;
 }
-.socials__item--icon--tg .socials__link:hover{
+.socials__item__icon__tg .socials__link:hover{
   background-image:url("./img/telegram-hover.png") ;
 }
-.socials__item--icon--vk .socials__link{
+.socials__item__icon__vk .socials__link{
   background-image:url("./img/vk.png") ;
 }
-.socials__item--icon--vk .socials__link:hover{
+.socials__item__icon__vk .socials__link:hover{
   background-image:url("./img/vk-hover.png") ;
 }
-.socials__item--icon--fb .socials__link{
+.socials__item__icon__fb .socials__link{
   background-image:url("./img/f.png") ;
 }
-.socials__item--icon--fb .socials__link:hover{
+.socials__item__icon__fb .socials__link:hover{
   background-image:url("./img/f-hover.png") ;
 }
-.socials__item--icon--inst .socials__link{
+.socials__item__icon__inst .socials__link{
   background-image:url("./img/in.png") ;
 }
-.socials__item--icon--inst .socials__link:hover{
+.socials__item__icon__inst .socials__link:hover{
   background-image:url("./img/in-hover.png") ;
 }
+
 .footer-container__content{
   border-top: 1px solid #353538;  
   margin: 0 auto;
