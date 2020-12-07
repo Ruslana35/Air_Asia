@@ -94,11 +94,9 @@ margin-right: 0;
 .menu__link{
   text-decoration: none;
 }
-
 .menu__link:hover{
   color: #DA0100;
 }
-
 .preview{
   width: 520px;
   text-align: left;
@@ -128,7 +126,6 @@ margin-right: 0;
   line-height: 19px;
   border-radius: 35px
 }
-
 .button:hover{
   background: #DA0100;
   box-shadow: 0 0 25px 0 rgb(224, 71, 71,0.3);
@@ -212,12 +209,16 @@ margin-right: 0;
   background: #ffffff;
   color: #F5170E;
   font-weight: 700;
-  margin-bottom: 26px;
   padding: 18px 27px;
 }
+
 .features__button:hover{
   background: #F5170E;
   color: #FFFFFF;
+}
+
+.features__button__active:active{
+  background: #F5170E;
 }
 .news__title{
   font-size: 36px;
