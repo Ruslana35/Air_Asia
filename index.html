@@ -21,13 +21,13 @@
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__item">
-                <a href="./index.html" class="menu__link menu__item__active">Главная</a>
+                <a href="./index.html" class="menu__link menu__item_active">Главная</a>
               </li>
               <li class="menu__item">
                 <a href="./services.html" class="menu__link">Услуги</a>
               </li>
               <li class="menu__item">
-                <a href="" class="menu__link">Отзывы</a>
+                <a href="./reviews.html" class="menu__link">Отзывы</a>
               </li>
             </ul>
           </nav>
@@ -35,7 +35,21 @@
         <div class="header__col header__col--align--right">
           <div class="contacts">
             <a href="#" class="contacts__tel">8 800 700 30 30</a>
-            <div class="contacts__text__active">График работы</div>
+            <div class="dropdown">
+              <div class="dropdown__text">График работы</div>
+              <div class="dropdown__menu">
+                <ul class="dropdown__list">
+                  <li class="dropdown__item dropdown__item_bold">
+                    <div class="dropdown__days">пн-вс: </div>
+                    <time class="dropdown__time">9:00 - 20:00</time>
+                  </li>
+                  <li class="dropdown__item">
+                    <div class="dropdown__days">Обед:</div>
+                    <time class="dropdown__time">14:00-14:30</time>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </header>
@@ -48,7 +62,7 @@
     <main class="main">
       <section class="features">
         <div class="features__title">
-          <h2 class="features__title-text">Горящие туры</h2>
+          <h2 class="features__title-text main__title-text">Горящие туры</h2>
         </div>
         <ul class="features__list">
           <li class="features__item features-block">
@@ -69,7 +83,7 @@
                 оценить значение систем массового участия.
               </div>
               <div class="features__button-wrapper">
-                <a href="#" class="features__button button">Смотреть</a>
+                <a href="#" class="features__button button_color_white button">Смотреть</a>
               </div>
             </div>
           </li>
@@ -90,7 +104,7 @@
               <div class="features__desc-text">Равным образом постоянное обеспечение нашей деятельности позволяет
                 оценить значение систем массового участия.</div>
               <div class="features__button-wrapper">
-                <a href="#" class="features__button features__button__active button">Смотреть</a>
+                <a href="#" class="features__button features__button_active button">Смотреть</a>
               </div>
             </div>
           </li>
@@ -112,14 +126,14 @@
                 оценить значение систем массового участия.
               </div>
               <div class="features__button-wrapper">
-                <a href="#" class="features__button button">Смотреть</a>
+                <a href="#" class="features__button button_color_white button">Смотреть</a>
               </div>
             </div>
           </li>
         </ul>
       </section>
       <section class="news">
-        <h2 class="news__title">
+        <h2 class="news__title main__title-text">
           Новости и акции
         </h2>
         <ul class="news__list">
@@ -162,7 +176,7 @@
             <span class="paginator__display-all">7</span>
           </div>
           <ul class="paginator__list">
-            <li class="paginator__item paginator__item__active">
+            <li class="paginator__item paginator__item_active">
               <a href="#" class="paginator__link">1</a>
             </li>
             <li class="paginator__item">
@@ -189,14 +203,14 @@
       <section class="about">
         <div class="about__us">
           <div class="about__content">
-            <h2 class="about__title">О нас</h2>
+            <h2 class="about__title main__title-text">О нас</h2>
             <div class="about__text">
               <p>Сайт поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев
                 более менее осмысленного текста на русском языке, а начинающему оратору отточить навык публичных
                 выступлений
                 в домашних условиях.</p>
             </div>
-            <a href="#" class="about__button button">Подробнее</a>
+            <a href="#" class="preview__button button">Подробнее</a>
           </div>
         </div>
 
@@ -212,7 +226,7 @@
             <nav class="menu">
               <ul class="menu__list">
                 <li class="menu__item">
-                  <a href="./index.html" class="menu__link">Главная</a>
+                  <a href="./index.html" class="menu__link menu__item_active">Главная</a>
                 </li>
                 <li class="menu__item">
                   <a href="./services.html" class="menu__link">Услуги</a>
